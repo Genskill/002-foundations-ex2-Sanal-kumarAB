@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <math.h>
 int main(void){
-     int side1,side2, side3,p=2,a,b,c;
+     int side1,side2, side3,a,b,c;
      side1 = get_int("enter side 1\n");
      side2 = get_int("enter side 2\n");
      side3 = get_int("enter side 3\n");
@@ -23,8 +23,8 @@ int main(void){
      	c = side1;
      }
 
-	 a =pow(a,p);
-	 b =pow(b,p) + pow(c,p);
+	 a =a*a;
+	 b =(b*b) + (c*c);
 	 if(a==b){
 	 	printf ("Yes\n");
 	 }
