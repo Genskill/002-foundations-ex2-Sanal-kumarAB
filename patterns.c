@@ -3,8 +3,8 @@
 
 int main(void){
 	int val,row,i,j,k;
-	val = get_int("\n");
-	row = get_int("\n");
+	val = get_int("");
+	row = get_int("");
 
 	if(val==1){
 		for(i=row;i>0;i--){
