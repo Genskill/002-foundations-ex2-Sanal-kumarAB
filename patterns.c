@@ -3,8 +3,8 @@
 
 int main(void){
 	int val,row,i,j,k;
-	val = get_int("enter 1 or 2:\n");
-	row = get_int("no of rows:\n");
+	val = get_int();
+	row = get_int();
 
 	if(val==1){
 		for(i=row;i>0;i--){
